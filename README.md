@@ -18,7 +18,7 @@ Virtuális környezet létrehozása és aktiválása Windows alatt:
 python -m venv venv
 .\venv\Scripts\activate
 
-2. Függőségek telepítése:
+2. Build:
    pip install -r requirements.txt
 
 3. Alkalmazás indítása:
