@@ -3,11 +3,20 @@
 
 Ez egy egyszerű Flask alapú webalkalmazás, amely a böngészőben a „Hello GDE” üzenetet jeleníti meg.
 
+
 ## Futtatás lépései
 
 1. Repository klónozása:
    git clone https://github.com/kalmankzi/DevOps-Projekt.git
    cd DevOps-Projekt
+
+
+### Ajánlott: Python virtuális környezet használata
+
+Virtuális környezet létrehozása és aktiválása Windows alatt:
+
+python -m venv venv
+.\venv\Scripts\activate
 
 2. Függőségek telepítése:
    pip install -r requirements.txt
