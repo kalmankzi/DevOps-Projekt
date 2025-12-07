@@ -4,19 +4,11 @@
 Ez egy egyszerű Flask alapú webalkalmazás, amely a böngészőben a „Hello GDE” üzenetet jeleníti meg.
 
 
-## Futtatás lépései
+## BUILD
 
 1. Repository klónozása:
    git clone https://github.com/kalmankzi/DevOps-Projekt.git
    cd DevOps-Projekt
-
-
-### Ajánlott: Python virtuális környezet használata
-
-Virtuális környezet létrehozása és aktiválása Windows alatt:
-
-python -m venv venv
-.\venv\Scripts\activate
 
 2. Build:
    pip install -r requirements.txt
@@ -34,8 +26,23 @@ python -m venv venv
 - README.md           – Dokumentáció
 
 ## Verziókezelés (Trunk-Based)
+main a fő ág
+módosítások feature branch-ekben készültek egy health feature
+git használat
 
+## DOCKER
 
+docker build -t devops-projekt .
+docker run -p 8080:8080 devops-projekt
+
+## VS Code Dev Cont használat
+Használata:
+
+VS Code → Dev Containers bővítmény telepítése
+Projekt megnyitása VS Code-ban
+Ctrl+Shift+P → “Dev Containers: Rebuild and Reopen in Container”
+Az alkalmazás Dockerben fut és elérhető:
+http://localhost:8080
 
 
 ## Szerző
