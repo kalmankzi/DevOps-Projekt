@@ -26,27 +26,27 @@ Ez egy egyszerű Flask alapú webalkalmazás, amely a böngészőben a „Hello 
 - README.md           – Dokumentáció
 
 ## Verziókezelés (Trunk-Based)
-main a fő ág
-módosítások feature branch-ekben készültek egy health feature
+main a fő ág  
+módosítások feature branch-ekben készültek egy health feature  
 git használat
 
 ## DOCKER
 
-Indisd el a Docker Desktopot
-Powershell
-git clone https://github.com/kalmankzi/DevOps-Projekt.git
-docker build -t devops-projekt .
-docker run -p 8080:8080 devops-projekt
+Indisd el a Docker Desktopot  
+Powershell  
+git clone https://github.com/kalmankzi/DevOps-Projekt.git  
+docker build -t devops-projekt .  
+docker run -p 8080:8080 devops-projekt  
 
 ## VS Code Dev Cont használat
 Használata:
 
-Intisd el a Docker Desktopot
-VS Code → Dev Containers bővítmény telepítése
-Projekt megnyitása VS Code-ban
-Ctrl+Shift+P → “Dev Containers: Rebuild and Reopen in Container”
-Az alkalmazás Dockerben fut és elérhető:
-http://localhost:8080
+Intisd el a Docker Desktopot  
+VS Code → Dev Containers bővítmény telepítése  
+Projekt megnyitása VS Code-ban  
+Ctrl+Shift+P → “Dev Containers: Rebuild and Reopen in Container”  
+Az alkalmazás Dockerben fut és elérhető:  
+http://localhost:8080  
 
 
 ## Szerző
